@@ -1,0 +1,173 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*général*/
+.flex{
+  display:flex;
+}
+/*container*/
+.container-fluid{
+  background-color:black;
+  height:70vh;
+}
+
+.container{
+  width:80%;
+  margin:0 auto;
+  height: 70vh;
+}
+
+
+.container-txt, .container-img{
+  height:70vh;
+  width: 50%;
+}
+
+.container-img{
+  background-color: grey;
+}
+
+.bg-yellow{
+  background-color: yellow;
+  height: 80px;
+}
+
+.container-galery{
+  display:flex;
+  justify-content: space-around;
+  height: 70vh;
+}
+.encart{
+  margin-top: 40px;
+  width: 20vh;
+  height: 250px;
+  border: 1px solid black;
+}
+
+.container-nc{
+  height: 50vh;
+  background-color: black;
+  color: white;
+}
+
+.nc{
+  width: 100vh;
+  height: 150px;
+padding-top: 20px;
+}
+
+.container-sold{
+  height: 50vh;
+  background-color: grey;
+}
+/*texte css*/
+
+.txt-yellow{
+  color: yellow;
+}
+
+.white{
+  color: white;
+}
+
+.title{
+  padding-top: 30px;
+  font-size: 3em;
+}
+
+.uppercase{
+  text-transform: uppercase;
+}
+
+.bold{
+  font-weight: bold;
+}
+
+.txt-light{
+  font-weight: 100;
+}
+
+.underline{
+  width: 50px;
+  height: 5px;
+}
+.promo{
+
+  font-size: 24px;
+  padding-left: 20vh;
+  padding-top: 30px;
+}
+h2{
+  font-size: 2em;
+  text-decoration: underline;
+  margin-top: 10vh;
+  margin-left: 10vh;
+}
+p{
+  margin-left: 10vh;
+}
+
+
+/*bouton*/
+.shop{
+  float: right;
+  margin-right: 20vh;
+
+  width: 150px;
+  height: 50px;
+  background-color: black;
+  color: white;
+}
+
+.view{
+  width: 150px;
+  height: 50px;
+  background-color: yellow;
+  color: black;
+  margin-left: 10vh;
+}
